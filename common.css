@@ -1,78 +1,47 @@
+.navbar-custom {
+    background-color: #ffe194 ;
+}
+
 
 .logo {
     text-align: center;
 }
 
 
-.hd {
-    padding-left: 5%;
-    padding-right: 5%;
+.heading {
+    font-size: xx-large;
+	letter-spacing: normal;
 }
 
-@media (max-width: 600px) {
-    .heading {
-        letter-spacing: normal;
-    }
-}.heading {
-    font-size: xx-large;
-        letter-spacing: 50px;
 
+.btn-custom{
+	background-color: #ffe194;
 }
 
 header {
     background-color: #ffe194;
 }
-.logi{
-    padding-top: 20%;
-   
-}
-.loginb{
-    border-radius: 10px;
-background-color: #252f6b;
-border-color: #fff;
-color: white;
-}
-.loginb:hover{
-    background-color: coral;
-}
+
 .hd1 {
     font-family: 'BankGothic Md BT', sans-serif;
     text-align: center;
     color: #252f6b;
 }
-
-.logo {
-    text-align: center;
-}
-
 .hd {
     padding-left: 5%;
     padding-right: 5%;
-}
-
-@media (max-width: 600px) {
-    .heading {
-        letter-spacing: normal;
-    }
-    .p1 .p2 {
-        display: none;
-    }
 }
 footer{
     background-color: #ffb319;
     font-family: Arial, Helvetica, sans-serif;
     color: #252f6b;
-  
 }
-
-
 .map-rsp{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
     height:0;
 }
-
 .map-rsp iframe{
     left:0;
     top:0;
@@ -80,9 +49,6 @@ footer{
     width:100%;
     position:absolute;
 }
-
-
-
 .fa {
     padding: 10px;
     font-size: 10px;
@@ -90,12 +56,10 @@ footer{
     text-align: center;
     text-decoration: none;
     margin: 3px 1px;
-  }
-  
+  } 
   .fa:hover {
       opacity: 0.7;
   }
-
   .fa-facebook {
     background: #3B5998;
     color: white;
@@ -112,15 +76,21 @@ footer{
     color: white;
     border-radius:5px;
   }
-
   .fa-instagram {
     background: #125688;
     color: white;
     border-radius:5px;
-  }
-  
- 
-  
+  } 
+ /*dropdown mandotory*/
+ .dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
 
 .nav-item{
     padding-left: 15px;
