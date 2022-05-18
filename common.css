@@ -1,3 +1,6 @@
+body {
+	background-color:#faf2e0;
+}
 .navbar-custom {
     background-color: #ffe194 ;
 }
@@ -32,9 +35,9 @@ header {
     padding-right: 5%;
 }
 footer{
-    background-color: #ffb319;
+    background-color: #ffe194;
     font-family: Arial, Helvetica, sans-serif;
-    color: #252f6b;
+    color: #000000;
 }
 .map-rsp{
     overflow:hidden;
